@@ -1,12 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 
-$body-bg: #ecf0f1;
+$body-bg: #1abc9c;
 $font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-inverse-bg: #34495e;
-$navbar-inverse-link-color: #FFF;
+$navbar-inverse-bg: #FFF;
+$navbar-inverse-link-color: #34495e;
 $well-bg: #FFF;
 $jumbotron-bg: #FFF;
+
 @import 'bootstrap';
 
 .textcenter {
