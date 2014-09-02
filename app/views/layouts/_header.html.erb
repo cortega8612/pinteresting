@@ -17,19 +17,21 @@
         <li><%= link_to "Home", root_path %></li>
         
         <li><%= link_to "About", about_path %></li>
+        
         <% if user_signed_in? %>
-        <li><%= link_to "Account Settings", edit_user_registration_path %></li>
-
+        <li><%= link_to edit_user_registration_path do %>
+          <span class="glyphicon glyphicon-wrench"></span> Account Settings
+          <%end%></li>
         <li>
-            <%= link_to new_pin_path do %>
-              <span class="glyphicon glyphicon-plus"></span> New Pin
-            <% end %>
+          <%= link_to new_pin_path do %>
+            <span class="glyphicon glyphicon-plus"></span> New Pin
+          <% end %>
           </li>
         
-
-        <li><%= link_to "Log Out", destroy_user_session_path, method: :delete %></li>
+          <!--glyphon with raw html -->
+        <li><%= link_to raw('<span class="glyphicon glyphicon-log-out"></span>  Log Out'), destroy_user_session_path, method: :delete %></li>
         <% else %>
-          <li><%= link_to "Log in", new_user_session_path %></li>
+          <li><%= link_to raw('<span class="glyphicon glyphicon-log-in"></span>  Log In'), new_user_session_path %></li>
         <% end %>
       </ul>
       
