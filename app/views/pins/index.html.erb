@@ -26,3 +26,7 @@
     </div>
   <% end %>
 </div>
+
+<div class="vcenter col-md-12">
+   <%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
+</div>
