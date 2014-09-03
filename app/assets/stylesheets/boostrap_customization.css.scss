@@ -8,11 +8,16 @@ $navbar-inverse-bg: #6C7A89;
 $navbar-inverse-link-color: #FFF;
 $navbar-inverse-link-hover-color: #E4F1FE;
 $navbar-inverse-brand-hover-color: #E4F1FE;
-$well: #FFF;
+$well-bg: #FFF;
 $jumbotron-bg: #FFF;
 
 
 @import 'bootstrap';
+
+body {
+  /* sticky footer height*/
+  margin-bottom: 50px;
+}
 
 .h1w {
 	color: #FFF;
@@ -37,3 +42,23 @@ $jumbotron-bg: #FFF;
     vertical-align: middle;
     float: none;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+	width: 100%;
+	background-color: #FFF;
+	height: 50px;
+	border-top: 2px #FFFFFF solid;
+}
+
+.footer p{
+	padding-top: 5px;
+  color: #2980b9;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+
+
