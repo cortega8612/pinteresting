@@ -1,5 +1,7 @@
 # Pinterest app 
 
-This is the pinteresting sample app for [*One Month Rails*](http://onemonthrails.com)
+PinApp was developed during the [*One Month Rails*](http://onemonthrails.com).
 
-by [Carlos Ortega](http://carlosomx.com)
+Check the final product at: [PinApp](http://carlos-pinteresting.herokuapp.com/)
+
+Done by [Carlos Ortega](http://carlosomx.com)
