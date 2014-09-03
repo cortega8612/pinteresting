@@ -2,13 +2,13 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 
-$body-bg: #1abc9c;
+$body-bg: #ECECEC;
 $font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-inverse-bg: #FFF;
-$navbar-inverse-link-color: #34495e;
-$navbar-inverse-link-hover-color: #1abc9c;
-$navbar-inverse-brand-hover-color: #343434;
-$well-bg: #FFF;
+$navbar-inverse-bg: #6C7A89;
+$navbar-inverse-link-color: #FFF;
+$navbar-inverse-link-hover-color: #E4F1FE;
+$navbar-inverse-brand-hover-color: #E4F1FE;
+$well: #FFF;
 $jumbotron-bg: #FFF;
 
 
@@ -17,6 +17,7 @@ $jumbotron-bg: #FFF;
 .h1w {
 	color: #FFF;
 }
+
 
 .body1w {
 	color: #34495e;
